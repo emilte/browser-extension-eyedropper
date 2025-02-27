@@ -1,0 +1,10 @@
+{
+	"manifest_version": 3,
+	"name": "Eyedropper Tool",
+	"version": "1.0",
+	"permissions": ["activeTab", "scripting"],
+	"background": {
+		"service_worker": "src/background.js"
+	},
+	"action": {} // Required for the extension to trigger script injection on click.
+}
